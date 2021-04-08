@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "683642641831",
+    "project_id": "productos-garden",
+    "storage_bucket": "productos-garden.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:683642641831:android:107d2926b88d651db8aa82",
+        "android_client_info": {
+          "package_name": "com.productos.productosgarden"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "683642641831-4rdjk1t26denmvj631hra79bd99ge7gj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtbj0RbicxH4GzN7ok3f5k2-WxuqFtFEg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "683642641831-4rdjk1t26denmvj631hra79bd99ge7gj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

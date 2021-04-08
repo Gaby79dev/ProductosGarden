@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Productos Garden</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imageboller_a">imageBollería</string>
+    <string name="boller_a_peque_a">BOLLERÍA PEQUEÑA</string>
+    <string name="tartas">TARTAS</string>
+    <string name="helados">HELADOS</string>
+    <string name="boller_a_grande">BOLLERÍA GRANDE</string>
+    <string name="imageRV">TODO</string>
+
+
+</resources>

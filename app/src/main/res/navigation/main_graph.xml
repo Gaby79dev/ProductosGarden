@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.productos.productosgarden.ui.HomeFragment"
+        android:label="home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_nav_home_to_bolleriaPequeFragment"
+            app:destination="@id/bolleriaPequeFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_bolleriaGranFragment"
+            app:destination="@id/bolleriaGranFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_tartasFragment"
+            app:destination="@id/tartasFragment" />
+        <action
+            android:id="@+id/action_nav_home_to_heladosFragment"
+            app:destination="@id/heladosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bolleriaPequeFragment"
+        android:name="com.productos.productosgarden.ui.BolleriaPequeFragment"
+        android:label="fragment_bolleria_peque"
+        tools:layout="@layout/fragment_bolleria_peque" />
+    <fragment
+        android:id="@+id/bolleriaGranFragment"
+        android:name="com.productos.productosgarden.ui.BolleriaGranFragment"
+        android:label="fragment_bolleria_gran"
+        tools:layout="@layout/fragment_bolleria_gran" />
+    <fragment
+        android:id="@+id/heladosFragment"
+        android:name="com.productos.productosgarden.ui.HeladosFragment"
+        android:label="fragment_helados"
+        tools:layout="@layout/fragment_helados" />
+    <fragment
+        android:id="@+id/tartasFragment"
+        android:name="com.productos.productosgarden.ui.TartasFragment"
+        android:label="fragment_tartas"
+        tools:layout="@layout/fragment_tartas" />
+</navigation>
